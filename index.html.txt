@@ -1,0 +1,49 @@
+<p><!DOCTYPE html> <html lang=&quot;en&quot;> <head> <meta charset=&quot;UTF-8&quot;> <meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;> <title>Eron</title></p>
+
+<p><style>  body {  margin: 0;  font-family: Arial, sans-serif;  background: #0b0f1a;  color: #e6e6e6;  line-height: 1.6;  }</p>
+
+<p> .container {  max-width: 800px;  margin: auto;  padding: 60px 20px;  }</p>
+
+<p> h1 {  font-size: 3em;  margin-bottom: 0;  letter-spacing: 2px;  }</p>
+
+<p> .tagline {  color: #7aa2ff;  margin-top: 5px;  font-style: italic;  }</p>
+
+<p> .section {  margin-top: 40px;  }</p>
+
+<p> h2 {  color: #7aa2ff;  border-bottom: 1px solid #222;  padding-bottom: 5px;  }</p>
+
+<p> p {  color: #d0d0d0;  }</p>
+
+<p> .quote {  margin-top: 20px;  padding: 15px;  border-left: 3px solid #7aa2ff;  background: #11172a;  font-style: italic;  }</p>
+
+<p> .footer {  margin-top: 60px;  font-size: 0.9em;  color: #777;  }</p>
+
+<p> a {  color: #7aa2ff;  text-decoration: none;  } </style> </head></p>
+
+<p><body></p>
+
+<p><div class=&quot;container&quot;></p>
+
+<p> <h1>Eron</h1>  <div class=&quot;tagline&quot;>A mind built from questions, not answers.</div></p>
+
+<p> <div class=&quot;section&quot;>  <h2>About</h2>  <p>  This space is not a biography in the traditional sense.  It is a snapshot of thought &mdash; a reflection of curiosity, reasoning, and observation. </p></p>
+
+<p> <p>  Identity here is not defined by personal data, but by patterns of thinking:  how ideas connect, evolve, and sometimes contradict each other. </p>  </div></p>
+
+<p> <div class=&quot;section&quot;>  <h2>Interests</h2>  <p>  Constitutional structure, philosophy of law, systems of governance,  physics as a model of reality, and the behavior of complex systems. </p></p>
+
+<p> <p>  Not as isolated subjects &mdash; but as parts of a single question:  <em>how do systems remain coherent under pressure?</em> </p>  </div></p>
+
+<p> <div class=&quot;section&quot;>  <h2>Perspective</h2>  <div class=&quot;quote&quot;>  &ldquo;Most answers collapse under enough questioning.  The goal is not certainty &mdash; but resilience of thought.&rdquo;  </div></p>
+
+<p> <p>  Ideas are treated as models, not beliefs. If a model fails, it is replaced &mdash;  not defended. </p>  </div></p>
+
+<p> <div class=&quot;section&quot;>  <h2>Privacy Principle</h2>  <p>  This site deliberately avoids personal identifiers.  It does not attempt to map the individual behind the ideas. </p></p>
+
+<p> <p>  What remains is only what is expressed &mdash; nothing more, nothing hidden. </p>  </div></p>
+
+<p> <div class=&quot;footer&quot;>  Built as a minimal intellectual footprint &mdash; not a digital identity archive.  </div></p>
+
+<p></div></p>
+
+<p></body> </html></p>
