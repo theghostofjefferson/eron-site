@@ -510,6 +510,7 @@
                 <span class="px-2 py-0.5 text-xs hairline-box bg-[var(--bg-secondary)] text-[var(--text-primary)]">James Madison</span>
                 <span class="px-2 py-0.5 text-xs hairline-box bg-[var(--bg-secondary)] text-[var(--text-primary)]">Political Economy</span>
                 <span class="px-2 py-0.5 text-xs hairline-box bg-[var(--bg-secondary)] text-[var(--text-muted)]">Neuroscience</span>
+                <span class="px-2 py-0.5 text-xs hairline-box bg-[var(--bg-secondary)] text-[var(--text-muted)]">Physics &amp; Mathematics</span>
               </dd>
             </div>
             <div>
@@ -1211,14 +1212,14 @@
           Constitutional Law, Madison &amp; Wider Inquiry
         </h2>
         <p class="font-serif text-lg text-[var(--text-secondary)] max-w-3xl">
-          Constitutional law and Madisonian political philosophy are at the heart of what I study, alongside political economy, institutional history, and neuroscience, which matters to me for personal reasons.
+          Constitutional law and Madisonian political philosophy are at the heart of what I study, alongside political economy, institutional history, physics and mathematics, and neuroscience, which matters to me for personal reasons.
         </p>
       </div>
 
       <!-- Domain Filter Tabs -->
       <div class="flex flex-wrap gap-2" role="tablist" aria-label="Intellectual Interest Domains">
         <button type="button" data-domain-tab="all" class="domain-tab px-4 py-2 font-mono text-xs uppercase tracking-widest bg-[#1B2A4A] text-white transition-colors">
-          All Domains (4)
+          All Domains (5)
         </button>
         <button type="button" data-domain-tab="law" class="domain-tab px-4 py-2 font-mono text-xs uppercase tracking-widest hairline-box bg-[var(--bg-card)] text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
           I. Constitutional Law &amp; Madison
@@ -1231,6 +1232,9 @@
         </button>
         <button type="button" data-domain-tab="neuro" class="domain-tab px-4 py-2 font-mono text-xs uppercase tracking-widest hairline-box bg-[var(--bg-card)] text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
           IV. Neuroscience
+        </button>
+        <button type="button" data-domain-tab="physics" class="domain-tab px-4 py-2 font-mono text-xs uppercase tracking-widest hairline-box bg-[var(--bg-card)] text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
+          V. Physics &amp; Mathematics
         </button>
       </div>
 
@@ -1459,6 +1463,45 @@
           </div>
         </article>
 
+        <!-- DOMAIN 5: PHYSICS & MATHEMATICAL SCIENCES -->
+        <article data-domain-panel="physics" class="domain-panel hairline-box bg-[var(--bg-card)] p-6 sm:p-9 space-y-6">
+          <div class="flex flex-wrap items-center justify-between gap-2 hairline-b pb-4">
+            <div>
+              <span class="font-mono text-xs uppercase tracking-widest text-[var(--text-muted)]">DOMAIN V · MATHEMATICS AS A WAY OF SEEING</span>
+              <h3 class="font-display text-2xl sm:text-3xl font-semibold text-[var(--text-primary)] mt-1">
+                Physics &amp; Mathematical Sciences
+              </h3>
+            </div>
+            <span class="font-mono text-xs px-2.5 py-1 hairline-box bg-[var(--bg-secondary)] text-[var(--text-muted)]">
+              Independent Study
+            </span>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            <div class="lg:col-span-7 space-y-3 font-serif text-base text-[var(--text-secondary)] leading-relaxed">
+              <p>
+                I study physics on my own, and what keeps pulling me in is the mathematics underneath it: how abstract structures end up describing real phenomena, and what those structures mean once you read them as physics.
+              </p>
+              <p>
+                The question I keep returning to is how formalism and physical intuition fit together, and why some of our best theories feel so wrong to common sense. Gravitational waves are where I pushed this the furthest. I spent a long stretch trying to build a real, intuitive picture of what is physically going on, not just following the equations.
+              </p>
+            </div>
+
+            <div class="lg:col-span-5 space-y-3 font-sans text-xs">
+              <div class="font-mono uppercase tracking-widest text-[var(--text-muted)]">Areas I’ve explored</div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div class="p-3.5 hairline-box bg-[var(--bg-secondary)] font-semibold text-[var(--text-primary)]">Classical Mechanics</div>
+              <div class="p-3.5 hairline-box bg-[var(--bg-secondary)] font-semibold text-[var(--text-primary)]">Electromagnetism</div>
+              <div class="p-3.5 hairline-box bg-[var(--bg-secondary)] font-semibold text-[var(--text-primary)]">Quantum Mechanics</div>
+              <div class="p-3.5 hairline-box bg-[var(--bg-secondary)] font-semibold text-[var(--text-primary)]">Statistical Mechanics</div>
+              <div class="p-3.5 hairline-box bg-[var(--bg-secondary)] font-semibold text-[var(--text-primary)]">Gravitational Waves</div>
+              <div class="p-3.5 hairline-box bg-[var(--bg-secondary)] font-semibold text-[var(--text-primary)]">Calculus &amp; Differential Equations</div>
+              <div class="p-3.5 hairline-box bg-[var(--bg-secondary)] font-semibold text-[var(--text-primary)]">Mathematical Methods in Physics</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
       </div>
 
     </section>
@@ -1613,7 +1656,7 @@
           <span class="font-mono text-[10px] text-[var(--text-muted)]">#iea</span>
         </button>
         <button type="button" data-cmd-goto="inquiry" class="w-full text-left px-3 py-2.5 hover:bg-[var(--bg-secondary)] flex items-center justify-between">
-          <span class="font-medium text-[var(--text-primary)]">IV. Intellectual Interests (Con Law, Madison, Economy, Neuroscience)</span>
+          <span class="font-medium text-[var(--text-primary)]">IV. Intellectual Interests (Con Law, Madison, Economy, Neuroscience, Physics)</span>
           <span class="font-mono text-[10px] text-[var(--text-muted)]">#inquiry</span>
         </button>
         <button type="button" data-cmd-goto="contact" class="w-full text-left px-3 py-2.5 hover:bg-[var(--bg-secondary)] flex items-center justify-between">
